@@ -3,4 +3,9 @@
 
 @tailwind base;
 @tailwind components;
+
+.rating-card{
+    @apply grid grid-flow-col gap-2 justify-items-center justify-center mb-4 lg:items-center lg:mb-0;
+}
+
 @tailwind utilities;

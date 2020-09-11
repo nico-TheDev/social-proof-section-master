@@ -18,8 +18,14 @@ module.exports = {
             fontSize: {
                 default: "15px",
             },
+            height:{
+                '85':'85%'
+            }
         },
     },
     variants: {},
     plugins: [],
+    experimental: {
+        applyComplexClasses: true,
+      },
 };
