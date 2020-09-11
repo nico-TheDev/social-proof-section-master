@@ -1,0 +1,19 @@
+{
+  "name": "social-proof-section-master",
+  "version": "1.0.0",
+  "description": "![Design preview for the Social proof section coding challenge](./design/desktop-preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "build:tailwind": "postcss css/tailwind.css -o css/main.css",
+    "watch:tailwind": "postcss css/tailwind.css -o css/main.css --w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fullhuman/postcss-purgecss": "^2.3.0",
+    "autoprefixer": "^9.8.6",
+    "postcss-cli": "^7.1.2",
+    "tailwindcss": "^1.8.8"
+  }
+}
